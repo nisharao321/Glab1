@@ -12,6 +12,52 @@ var r = Math.floor(Math.random() * 9);
 var lastp,flag=0;
 var repeat=0;
 
+var ca;
+	var questions = ["The positive terminal of the battery is known as ",
+	"In the Schlumberger array, the electrodes are placed at equal distances?"
+	];
+
+	var options2 = [
+	["Anode", "Cathode ", "Electrode", "None of these"], //Two
+	["True", "False"], //Meter of air
+	]; 
+
+	function validateAnswer(qn, ans, left, top) {
+	$("#answer").empty();
+	document.getElementById("a").innerHTML = "";
+	document.getElementById("questDiv").style = "position:absolute; font-size:14px; background-color:grey; color:white; padding:7.5px; border-radius:5px; visibility:visible; left:" + left + ";top:" + top + ";";
+	document.getElementById("q").innerHTML = questions[qn];
+	if (qn === 0) document.getElementById('questDiv').style.width = "370px";
+	if (qn === 1) document.getElementById('questDiv').style.width = "370px";
+
+	el = document.createElement("option");
+	el.textContent = " ";
+	el.value = " ";
+	answer.appendChild(el);
+
+	for (j = 0; j < options2[qn].length; j++) {
+	opt = options2[qn][j];
+
+	el = document.createElement("option");
+	el.textContent = opt;
+	el.value = opt;
+	answer.appendChild(el);
+	$("#answer").change(function() {
+	ca = $(this).children("option:selected").val();
+	if (options2[qn][ans] === ca) {
+		document.getElementById("a").innerHTML = "Correct Answer!";
+	}
+	else {
+		document.getElementById("a").innerHTML = "Wrong! Answer is " + options2[qn][ans];
+	}
+	setTimeout(function() {
+		document.getElementById("questDiv").style.visibility = "hidden";
+		document.getElementById("nextButton").style.visibility = "visible";
+	}, 1500);
+	});
+	}
+	}
+
 var arr3 = [
 	[272.67,376.89,444.08,583.5,697.81,722.08,814.92,835.74,767.15,760.54,664.42,728.43,808.61,1045.12]];
 var data1 = [
@@ -193,7 +239,7 @@ function jsFunction(value)
 	document.getElementById("wrong21").style.visibility = "hidden";
 	if(repeat==1)
 	{
-	document.getElementById("nextButton").style.visibility = "visible";
+			validateAnswer(0, 0, "150px", "250px");
 	}
 	else{
 		document.getElementById("nextButton").style.visibility = "hidden";
@@ -204,7 +250,7 @@ function jsFunction(value)
 		document.getElementById("right21").style.visibility = "hidden";
 		if(repeat==1)
 		{
-		document.getElementById("nextButton").style.visibility = "visible";
+			validateAnswer(0, 0, "150px", "250px");
 		}
 		else{
 			document.getElementById("nextButton").style.visibility = "hidden";
@@ -218,13 +264,13 @@ function jsFunction1(value)
 	{
 	document.getElementById("right21").style.visibility = "visible";
 	document.getElementById("wrong21").style.visibility = "hidden";
-	document.getElementById("nextButton").style.visibility = "visible";
+	validateAnswer(1, 1, "150px", "250px");
 
 	}
 	else{
 		document.getElementById("wrong21").style.visibility = "visible";
 		document.getElementById("right21").style.visibility = "hidden";
-		document.getElementById("nextButton").style.visibility = "visible";
+		validateAnswer(1, 1, "150px", "250px");
 
 	}
 	//document.write(value);
