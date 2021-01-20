@@ -55,7 +55,15 @@ height:530px;
 width:745px;
 
 }
+.screen
+{
+position:absolute;
+left: 50px;
+top: 50px;
+height:530px;
+width:455px;
 
+}
 .incanvas
 {
 margin:5px 0 0 5px;
@@ -152,8 +160,17 @@ background:#000
       visibility: visible;
     }
     
-    
+    .container {
+	position: relative;
+	text-align: center;
+	color: white;
+    }
 
+    .bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+    }
 @-webkit-keyframes mover{
 	0%{ transform:rotate(-20deg)}
 	100%{ transform:rotate(0deg)}
@@ -174,19 +191,19 @@ background:#000
 
      @keyframes movek {
 	0% {left: 290px; top: 420px;}
-	100% { left: 336px; top: 398px;}
+	100% { left: 316px; top: 398px;}
 	}
     @-webkit-keyframes movek {
 	0% { left: 290px; top: 420px;}
-	100% { left: 336px; top: 398px;}
+	100% { left: 316px; top: 398px;}
     }
     @keyframes movek1 {
-	0% {left: 336px; top: 398px;}
-	100% { left: 340px; top: 347px;}
+	0% {left: 290px; top: 420px;}
+	100% { left: 320px; top: 328px;}
 	}
     @-webkit-keyframes movek1 {
-	0% { left: 336px; top: 398px;}
-	100% { left: 340px; top: 347px;}
+	0% {left: 290px; top: 420px;}
+	100% { left: 320px; top: 328px;}
     }
 
     /* @keyframes movek1 {
