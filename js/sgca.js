@@ -303,30 +303,6 @@ function jsFunction(value) {
 	}
 }
 
-// function table()
-// {
-// 	document.getElementById("tab22-1").style.visibility="visible";
-// 	var tab1=document.getElementById("tab2-1");
-// 	var row0=tab1.insertRow(0);
-// 	var cell00=row0.insertCell(0);
-// 	var cell01=row0.insertCell(1);
-// 	cell00.innerHTML="Sample Bottle";
-// 	cell01.innerHTML="Chlorine added (ml)";
-// 	for(i=1;i<=26;i++)
-// 	{
-// 		var row=tab1.insertRow(i);
-// 		var cell0=row.insertCell(0);
-// 		var cell1=row.insertCell(1);
-// 		cell0.innerHTML=i;
-// 		cell1.innerHTML=(i-1)/2;
-// 	}
-// 	setTimeout(function()
-// 	{
-// 		document.getElementById("nextButton").style.visibility="visible";
-// 	},250);
-// }
-
-
 function jsFunction1(value) {
 	if (value == "Basalt") {
 		document.getElementById("right21").style.visibility = "visible";
@@ -384,6 +360,8 @@ function magic() {
 			document.getElementById('wrong21').style.visibility = "hidden";
 			document.getElementById('a23').style.visibility = "visible";
 			document.getElementById('nextButton').style.visibility = "hidden";
+			document.getElementById('csoil').style.visibility = "visible";
+
 			myInt = setInterval(function () { animatearrow(); }, 500);
 			animateArrowATPosition(390, 130, 30, 180);
 
@@ -401,6 +379,8 @@ function magic() {
 				document.getElementById('wrong21').style.visibility = "hidden";
 				document.getElementById('a23').style.visibility = "visible";
 				document.getElementById('nextButton').style.visibility = "hidden";
+				document.getElementById('csoil').style.visibility = "visible";
+
 				myInt = setInterval(function () { animatearrow(); }, 500);
 				animateArrowATPosition(390, 130, 30, 180);
 
@@ -413,6 +393,7 @@ function magic() {
 				document.getElementById('trial').innerHTML = "Trial : " + repeat;
 				document.getElementById('a5').style.visibility = "visible";
 				document.getElementById('a6').style.visibility = "visible";
+				document.getElementById('csoil').style.visibility = "visible";
 
 				myInt = setInterval(function () { animatearrow(); }, 500);
 				animateArrowATPosition(390, 130, 30, 180);
@@ -430,6 +411,7 @@ function magic() {
 			document.getElementById('b55').style.visibility = "visible";
 			document.getElementById('b66').style.visibility = "visible";
 			document.getElementById('b24').style.visibility = "visible";
+			document.getElementById('csoil2').style.visibility = "visible";
 
 			document.getElementById('nextButton').style.visibility = "hidden";
 			myInt = setInterval(function () { animatearrow(); }, 500);
@@ -447,6 +429,7 @@ function magic() {
 				document.getElementById('b24').style.visibility = "visible";
 
 				document.getElementById('nextButton').style.visibility = "hidden";
+				document.getElementById('csoil2').style.visibility = "visible";
 
 				// document.getElementById('a66').style.visibility = "visible";
 
@@ -462,10 +445,9 @@ function magic() {
 				document.getElementById('trial').innerHTML = "Trial : " + repeat;
 				document.getElementById('b5').style.visibility = "visible";
 				document.getElementById('b6').style.visibility = "visible";
-
+				document.getElementById('csoil2').style.visibility = "visible";
 				myInt = setInterval(function () { animatearrow(); }, 500);
 				animateArrowATPosition(150, 130, 30, 180);
-
 				document.getElementById('b5').onclick = function () { step2(); };
 			}
 		}
@@ -481,6 +463,7 @@ function magic() {
 			document.getElementById('c55').style.visibility = "visible";
 			document.getElementById('c66').style.visibility = "visible";
 			document.getElementById('c23').style.visibility = "visible";
+			document.getElementById('csoil4').style.visibility = "visible";
 
 			document.getElementById('nextButton').style.visibility = "hidden";
 			myInt = setInterval(function () { animatearrow(); }, 500);
@@ -496,6 +479,7 @@ function magic() {
 				document.getElementById('c555').style.visibility = "visible";
 				document.getElementById('c666').style.visibility = "visible";
 				document.getElementById('c23').style.visibility = "visible";
+				document.getElementById('csoil4').style.visibility = "visible";
 
 				document.getElementById('nextButton').style.visibility = "hidden";
 
@@ -513,6 +497,7 @@ function magic() {
 				document.getElementById('trial').innerHTML = "Trial : " + repeat;
 				document.getElementById('c5').style.visibility = "visible";
 				document.getElementById('c6').style.visibility = "visible";
+				document.getElementById('csoil4').style.visibility = "visible";
 
 				myInt = setInterval(function () { animatearrow(); }, 500);
 				animateArrowATPosition(535, 130, 30, 180);
@@ -531,6 +516,7 @@ function magic() {
 			document.getElementById('d55').style.visibility = "visible";
 			document.getElementById('d66').style.visibility = "visible";
 			document.getElementById('c21').style.visibility = "visible";
+			document.getElementById('csoil6').style.visibility = "visible";
 
 			document.getElementById('nextButton').style.visibility = "hidden";
 			myInt = setInterval(function () { animatearrow(); }, 500);
@@ -546,6 +532,7 @@ function magic() {
 				document.getElementById('d555').style.visibility = "visible";
 				document.getElementById('d666').style.visibility = "visible";
 				document.getElementById('c21').style.visibility = "visible";
+				document.getElementById('csoil6').style.visibility = "visible";
 
 				document.getElementById('nextButton').style.visibility = "hidden";
 
@@ -561,6 +548,7 @@ function magic() {
 				document.getElementById('trial').innerHTML = "Trial : " + repeat;
 				document.getElementById('d5').style.visibility = "visible";
 				document.getElementById('d6').style.visibility = "visible";
+				document.getElementById('csoil6').style.visibility = "visible";
 
 				myInt = setInterval(function () { animatearrow(); }, 500);
 				animateArrowATPosition(20, 130, 30, 180);
@@ -649,7 +637,11 @@ function magic() {
 			document.getElementById('bt1').style.visibility = "visible";
 			document.getElementById('tab22-2').style.visibility = "hidden";
 			document.getElementById('sw12').style.visibility = "hidden";
-
+			document.getElementById('csoil7').style.visibility = "hidden";
+			document.getElementById('csoil5').style.visibility = "hidden";
+			document.getElementById('csoil3').style.visibility = "hidden";
+			document.getElementById('csoil2').style.visibility = "hidden";
+			document.getElementById('csoil1').style.visibility = "hidden";
 			fillTable2(1);
 			fillt1(1);
 
@@ -694,7 +686,11 @@ function magic() {
 				document.getElementById('c12').style.visibility = "hidden";
 				document.getElementById('tab22-3').style.visibility = "hidden";
 				document.getElementById('sw12').style.visibility = "hidden";
-
+				document.getElementById('csoil7').style.visibility = "hidden";
+				document.getElementById('csoil5').style.visibility = "hidden";
+				document.getElementById('csoil3').style.visibility = "hidden";
+				document.getElementById('csoil2').style.visibility = "hidden";
+				document.getElementById('csoil1').style.visibility = "hidden";
 				fillTable3(1);
 				fillt2(1);
 
@@ -729,6 +725,11 @@ function magic() {
 				document.getElementById('c12').style.visibility = "hidden";
 				document.getElementById('tab22-1').style.visibility = "hidden";
 				document.getElementById('sw12').style.visibility = "hidden";
+				document.getElementById('csoil7').style.visibility = "hidden";
+				document.getElementById('csoil5').style.visibility = "hidden";
+				document.getElementById('csoil3').style.visibility = "hidden";
+				document.getElementById('csoil2').style.visibility = "hidden";
+				document.getElementById('csoil1').style.visibility = "hidden";
 
 				//document.getElementById('l1').style.visibility = "visible";
 
@@ -812,7 +813,11 @@ function step1() {
 		document.getElementById("a6").style.animation = "movep 0.1s ease-in-out  forwards";
 		document.getElementById('a23').style.visibility = "hidden";
 		document.getElementById('a32').style.visibility = "visible";
+		document.getElementById('csoil1').style.visibility = "visible";
+			document.getElementById('csoil').style.visibility = "hidden";
+
 		setTimeout(function () {
+			
 			document.getElementById('a5').style.visibility = "hidden";
 			document.getElementById('nextButton').style.visibility = "visible";
 
@@ -829,8 +834,12 @@ function step11() {
 		document.getElementById('a23').style.visibility = "hidden";
 
 		document.getElementById('a32').style.visibility = "visible";
+		document.getElementById('csoil1').style.visibility = "visible";
+		document.getElementById('csoil').style.visibility = "hidden";
 
 		setTimeout(function () {
+
+			
 			document.getElementById('a55').style.visibility = "hidden";
 			document.getElementById('nextButton').style.visibility = "visible";
 		}, 1000);
@@ -846,6 +855,8 @@ function step111() {
 		document.getElementById('a23').style.visibility = "hidden";
 
 		document.getElementById('a32').style.visibility = "visible";
+		document.getElementById('csoil1').style.visibility = "visible";
+		document.getElementById('csoil').style.visibility = "hidden";
 
 		setTimeout(function () {
 			document.getElementById('a555').style.visibility = "hidden";
@@ -862,10 +873,9 @@ function step2() {
 		document.getElementById('b24').style.visibility = "hidden";
 
 		document.getElementById('b42').style.visibility = "visible";
-
-
+		document.getElementById('csoil3').style.visibility = "visible";
+		document.getElementById('csoil2').style.visibility = "hidden";
 		//document.getElementById("b24").style.transform = "rotate(15deg)";
-
 		setTimeout(function () {
 			document.getElementById('b5').style.visibility = "hidden";
 			document.getElementById('nextButton').style.visibility = "visible";
@@ -883,7 +893,8 @@ function step22() {
 		document.getElementById('b24').style.visibility = "hidden";
 
 		document.getElementById('b42').style.visibility = "visible";
-
+		document.getElementById('csoil3').style.visibility = "visible";
+		document.getElementById('csoil2').style.visibility = "hidden";
 		setTimeout(function () {
 			document.getElementById('b55').style.visibility = "hidden";
 			document.getElementById('nextButton').style.visibility = "visible";
@@ -901,7 +912,8 @@ function step222() {
 		document.getElementById('b24').style.visibility = "hidden";
 
 		document.getElementById('b42').style.visibility = "visible";
-
+		document.getElementById('csoil3').style.visibility = "visible";
+		document.getElementById('csoil2').style.visibility = "hidden";
 		setTimeout(function () {
 			document.getElementById('b555').style.visibility = "hidden";
 			document.getElementById('nextButton').style.visibility = "visible";
@@ -918,7 +930,8 @@ function step3() {
 		document.getElementById('c23').style.visibility = "hidden";
 
 		document.getElementById('c32').style.visibility = "visible";
-
+		document.getElementById('csoil5').style.visibility = "visible";
+		document.getElementById('csoil4').style.visibility = "hidden";
 		//	document.getElementById("c23").style.transform = "rotate(8deg)";
 		setTimeout(function () {
 			document.getElementById('c5').style.visibility = "hidden";
@@ -937,7 +950,8 @@ function step33() {
 		document.getElementById('c23').style.visibility = "hidden";
 
 		document.getElementById('c32').style.visibility = "visible";
-
+		document.getElementById('csoil5').style.visibility = "visible";
+		document.getElementById('csoil4').style.visibility = "hidden";
 		setTimeout(function () {
 			document.getElementById('c55').style.visibility = "hidden";
 			document.getElementById('nextButton').style.visibility = "visible";
@@ -955,7 +969,8 @@ function step333() {
 		document.getElementById('c23').style.visibility = "hidden";
 
 		document.getElementById('c32').style.visibility = "visible";
-
+		document.getElementById('csoil5').style.visibility = "visible";
+		document.getElementById('csoil4').style.visibility = "hidden";
 		setTimeout(function () {
 			document.getElementById('c555').style.visibility = "hidden";
 			document.getElementById('nextButton').style.visibility = "visible";
@@ -974,7 +989,8 @@ function step4() {
 		document.getElementById('c12').style.visibility = "visible";
 
 		//	document.getElementById("c21").style.transform = "rotate(16deg)";
-
+		document.getElementById('csoil7').style.visibility = "visible";
+		document.getElementById('csoil6').style.visibility = "hidden";
 		setTimeout(function () {
 			document.getElementById('d5').style.visibility = "hidden";
 
@@ -991,7 +1007,8 @@ function step44() {
 		document.getElementById('c21').style.visibility = "hidden";
 
 		document.getElementById('c12').style.visibility = "visible";
-
+		document.getElementById('csoil7').style.visibility = "visible";
+		document.getElementById('csoil6').style.visibility = "hidden";
 		//document.getElementById("c21").style.transform = "rotate(16deg)";
 
 		setTimeout(function () {
@@ -1012,7 +1029,8 @@ function step444() {
 		document.getElementById('c21').style.visibility = "hidden";
 
 		document.getElementById('c12').style.visibility = "visible";
-
+		document.getElementById('csoil7').style.visibility = "visible";
+		document.getElementById('csoil6').style.visibility = "hidden";
 		setTimeout(function () {
 			document.getElementById('d555').style.visibility = "hidden";
 
@@ -1404,6 +1422,16 @@ function calc7(para_button, para_output, para_output, para_button, para_output, 
 		}
 	};
 }
+
+function bigImg(x) {
+	x.style.height = "200px";
+	x.style.width = "200px";
+    }
+    
+    function normalImg(x) {
+	x.style.height = "145px";
+	x.style.width = "145px";
+    }
 // var k;
 // function calc1(para_button, para_output, para_output, para_button, para_output,para_row4, para_button1, para_button, para_wrong, para_wrong, para_right, para_button1, para_h1, para_h1,para_row4,para_output, para_wrong, para_right, para_right, para_h1, para_h1,para_row4, para_button, k) {
 //   var flag1 = 0;
