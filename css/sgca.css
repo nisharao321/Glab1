@@ -206,6 +206,16 @@ background:#000
 	100% { left: 320px; top: 328px;}
     }
 
+    .zoom {
+	position: absolute;left: 10px; width:auto;top: 300px;
+    }
+    
+    .zoom:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5); 
+    }
+   
     /* @keyframes movek1 {
 	0% {top: 398px;left: 340px;}
 	100% {top: 347px;left: 345px;}
