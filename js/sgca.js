@@ -361,6 +361,7 @@ function magic() {
 			document.getElementById('a23').style.visibility = "visible";
 			document.getElementById('nextButton').style.visibility = "hidden";
 			document.getElementById('csoil').style.visibility = "visible";
+			document.getElementById('Source').style.visibility = "visible";
 
 			myInt = setInterval(function () { animatearrow(); }, 500);
 			animateArrowATPosition(390, 130, 30, 180);
@@ -380,6 +381,7 @@ function magic() {
 				document.getElementById('a23').style.visibility = "visible";
 				document.getElementById('nextButton').style.visibility = "hidden";
 				document.getElementById('csoil').style.visibility = "visible";
+				document.getElementById('Source').style.visibility = "visible";
 
 				myInt = setInterval(function () { animatearrow(); }, 500);
 				animateArrowATPosition(390, 130, 30, 180);
@@ -394,6 +396,7 @@ function magic() {
 				document.getElementById('a5').style.visibility = "visible";
 				document.getElementById('a6').style.visibility = "visible";
 				document.getElementById('csoil').style.visibility = "visible";
+				document.getElementById('Source').style.visibility = "visible";
 
 				myInt = setInterval(function () { animatearrow(); }, 500);
 				animateArrowATPosition(390, 130, 30, 180);
