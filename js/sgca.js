@@ -419,7 +419,7 @@ function magic() {
 
 			document.getElementById('nextButton').style.visibility = "hidden";
 			myInt = setInterval(function () { animatearrow(); }, 500);
-			animateArrowATPosition(150, 130, 30, 180);
+			animateArrowATPosition(170, 130, 30, 180);
 
 			document.getElementById('b55').onclick = function () { step22(); };
 		}
@@ -439,7 +439,7 @@ function magic() {
 				// document.getElementById('a66').style.visibility = "visible";
 
 				myInt = setInterval(function () { animatearrow(); }, 500);
-				animateArrowATPosition(150, 130, 30, 180);
+				animateArrowATPosition(170, 130, 30, 180);
 
 				document.getElementById('b555').onclick = function () { step222(); };
 			}
@@ -454,7 +454,7 @@ function magic() {
 				document.getElementById('Source').style.visibility = "visible";
 
 				myInt = setInterval(function () { animatearrow(); }, 500);
-				animateArrowATPosition(150, 130, 30, 180);
+				animateArrowATPosition(170, 130, 30, 180);
 				document.getElementById('b5').onclick = function () { step2(); };
 			}
 		}
