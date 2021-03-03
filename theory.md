@@ -22,11 +22,10 @@ Several electrode configurations are available viz., Wenner array, Schlumberger 
 
 #### Equation used
 
-&rho; = &pi;(L<sup>2</sup>-l<sup>2</sup>)/2l*&#x394;v/I&#8776;&pi;L<sup>2</sup>/2l*&#x394;v/I
-
-where, 2L=Distance b/w Current electrodes<br>        
-2l=Distance b/w Potential Electrodes<br>                                       
-&#x394;V=Potential drop<br>
-I=Applied Current<br>
-&rho;=Resistivity of the ground<br>
+&rho; = &pi;(L<sup>2</sup>-l<sup>2</sup>)/2l*&#x394;v/I</p>br>&#8776;&pi;L<sup>2</sup>/2l*&#x394;v/I
+where, 2L=Distance b/w Current electrodes</br>        
+2l=Distance b/w Potential Electrodes</br>                                       
+&#x394;V=Potential drop</br>
+I=Applied Current</br>
+&rho;=Resistivity of the ground</br>
 
