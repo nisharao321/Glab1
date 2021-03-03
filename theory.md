@@ -19,8 +19,3 @@ where k is a geometric factor that depends on the configuration of current and p
 Several electrode configurations are available viz., Wenner array, Schlumberger array, tri-electrode array, dipole-dipole array etc. The Schlumberger and Wenner arrays are used for shallow investigations. Dipole systems are usually employed for deeper studies. However, Schlumberger electrode configuration has been employed in the present investigation because of its advantages over other methods both in the field survey as well as in the interpretation of data.
 </p>
 
-<center><img src="images/Eqn1.png"> (When AB>5MN) <br>
-Where 2L=distance between Current electrodes.<br>
-2l=Distance between Potential electrode
-$\Delta  </center>  
-\alpha
