@@ -13,7 +13,7 @@ Current and voltage measurements are then converted into apparent resistance (ρ
 </p>
 
 <center>ρa=k ΔV/I</center>
-</br>
+</br></br>
 
 <p style="text-indent:50px;text-align:justify">
 where k is a geometric factor that depends on the configuration of current and potential electrodes. Since the subsurface is heterogeneous under normal conditions, the resistivity measured is a weighted mean of the resistivity of all the individual rock material bodies that make up the earth and is termed as "apparent resistivity".
