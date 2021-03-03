@@ -20,3 +20,13 @@ where k is a geometric factor that depends on the configuration of current and p
 Several electrode configurations are available viz., Wenner array, Schlumberger array, tri-electrode array, dipole-dipole array etc. The Schlumberger and Wenner arrays are used for shallow investigations. Dipole systems are usually employed for deeper studies. However, Schlumberger electrode configuration has been employed in the present investigation because of its advantages over other methods both in the field survey as well as in the interpretation of data.
 </p>
 
+####Equation Used
+
+&rho; = &pi;(L<sup>2</sup>-l<sup>2</sup>)/2l*&#x394;v/I&#8776;&pi;L<sup>2</sup>/2l*&#x394;v/I
+
+where, 2L=Distance b/w Current electrodes<br>        
+2l=Distance b/w Potential Electrodes<br>                                       
+&#x394;V=Potential drop<br>
+I=Applied Current<br>
+&rho;=Resistivity of the ground<br>
+
