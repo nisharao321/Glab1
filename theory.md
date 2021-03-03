@@ -20,7 +20,7 @@ where k is a geometric factor that depends on the configuration of current and p
 Several electrode configurations are available viz., Wenner array, Schlumberger array, tri-electrode array, dipole-dipole array etc. The Schlumberger and Wenner arrays are used for shallow investigations. Dipole systems are usually employed for deeper studies. However, Schlumberger electrode configuration has been employed in the present investigation because of its advantages over other methods both in the field survey as well as in the interpretation of data.
 </p>
 
-#### Darcy's Law
+#### Equation used
 
 &rho; = &pi;(L<sup>2</sup>-l<sup>2</sup>)/2l*&#x394;v/I&#8776;&pi;L<sup>2</sup>/2l*&#x394;v/I
 
