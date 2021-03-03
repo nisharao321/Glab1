@@ -23,7 +23,7 @@ Several electrode configurations are available viz., Wenner array, Schlumberger 
 #### Equation used
 
 <p style="text-indent:50px;text-align:justify">
-&rho; = &pi;(L<sup>2</sup>-l<sup>2</sup>)/2l*&#x394;v/I   &#8776; &pi;L<sup>2</sup>/2l*&#x394;v/I
+&rho; = &pi;(L<sup>2</sup>-l<sup>2</sup>)/2l*&#x394;v/I   &#8776; &pi;L<sup>2</sup>/2l*&#x394;v/I<br>
 where, 2L = Distance b/w Current electrodes</br>        
 2l = Distance b/w Potential Electrodes</br>                                       
 &#x394;V = Potential drop</br>
