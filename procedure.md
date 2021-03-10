@@ -27,6 +27,6 @@
 9. Now click on the CHECK button to get the value of Mean Resistivty.<br>
 <img src="images/G9.png"><br>
 
-10. Now choose the final result from the dropdown. and Repeat same Procedure for <br>
+10. Now choose the final result from the dropdown. and Repeat same Procedure for trial2 and trial3. <br>
 <img src="images/G10.png"><br>
 
